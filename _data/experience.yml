@@ -1,19 +1,24 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+# Freelance Data Scientist
+- position: Freelance Data Scientist
+  duration: 2019 &mdash; Present
+  summary:
+    - point: I provide statistical consultations, develop data science tools, and various analytical products according to client needs.
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
-
+# Infrastructure and Operations Analyst
+- company: ADP
+  position: Infrastructure and Operations Analyst
+  duration:  2014 &mdash; 2017
+  summary:
+    - point: Remotely managed all enterprise-level storage arrays and Fibre Channel infrastructure within two Tier-4 data centers, supporting all of ADP’s internal and externally hosted suite of products.
+    - point: Coordinated with vendors to troubleshoot issues and ensure storage hardware/firmware is supported in accordance with established maintenance cycles, repair practices, and change control.
+    - point: Collaborated with Service Management to design and implement purpose-driven performance and capacity reports in order to protect Service Level Agreements, and prevent outages of business critical and clientfacing applications.
 
 # Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- company: ADP
+  position: Enterprise Storage Intern
+  duration:   2013  &mdash; 2014
+  summary:
+    - point: Developed internal performance monitoring application by aggregating data streams from 37 proprietary Network Attached Storage (NAS) arrays across multiple data centers, performing statistical analysis in R, and distributing via an interactive web interface.
+    - point: Created unique performance profiles detailing latency, CPU utilization, and network throughput of ADP products by aggregating data from the underlying storage arrays dispersed across multiple data centers.
+    - point: Collected performance and capacity data from NAS and SAN storage arrays for long-term benchmarking, historical investigation, and real-time management.
