@@ -68,7 +68,14 @@
             </ul>
 
 
-          <p class="resume-item-copy">{{ education.summary }}</p>
+          <p class="resume-item-copy">{{ education.description }}</p>
+          <p class="resume-item-copy">
+            <ul class="resume-item-list">
+              {% for point in education.summary %}
+              <li>{{ point.point }}</li>
+              {% endfor %}
+            </ul>
+          </p>
         </div>
         {% endfor %}
       </section>
@@ -134,14 +141,14 @@
         {% for skill in site.data.skills %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}
-            <ul class="resume-skill-list" data-columns="2">
+          <p class="resume-item-copy">{{ skill.description }}</p>
+          {% if skill.summary %}
+            <ul class="resume-skill-list">
               {% for point in skill.summary %}
               <li>{{ point.point }}</li>
               {% endfor %}
             </ul>
-          </p>
-
+            {% endif %}
 
         </div>
         {% endfor %}

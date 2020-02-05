@@ -2,6 +2,14 @@
 // ---------------------------------------/
 
 // util
+ul.resume-skill-list {
+    height: 100px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+        }
+
+
 
 .section-header {
   @include section_border;
@@ -135,7 +143,10 @@
 .content-section {
   margin: 0 0 3rem;
 
-  .resume-item { margin-bottom: 2rem; }
+  .resume-item { margin-bottom: 2rem;
+
+
+  }
 
   .resume-item-title {
     @include sans_bold;
@@ -157,25 +168,25 @@
 
   .resume-item-title,
   .resume-item-details,
-  .resume-item-copy,
-  .resume-item-list {
-    a {
-      color: #333;
-      text-decoration: none;
-      border-bottom: 1px solid;
-
-      &:hover {
-        border-bottom: none;
-        color: #9c9c9c;
-      }
-    }
-  }
-
-  .resume-skill-list {
+  .resume-item-copy,.resume-skill-list {
     ul {
-      columns: 2;
-    }
-    a {
+      height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+          }
+
+  }
+  .resume-item-list {
+    a {.resume-skill-list {
+    ul {
+      height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+          }
+
+  }
       color: #333;
       text-decoration: none;
       border-bottom: 1px solid;
@@ -186,6 +197,8 @@
       }
     }
   }
+
+
 
   .resume-item-copy { margin: .75rem 0 0; }
 }
