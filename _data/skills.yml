@@ -1,12 +1,37 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+# International Experience
+- skill: International experience
+  description: Between my work experience interfacing with international counterparts, pursuing graduate education and abroad, and maintaing a personal and working life all across the globe, I am able to work and thrive in any locale.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+# Data Science
+- skill: Data Science
+  description: Through the work of my masters program I have gained extensive experience in the following areas.
+  summary:
+    - point: Multivariate Analysis
+    - point: Multivariate Analysis
+    - point: Mixed Models
+    - point: Experimental Design
+    - point: Generalized Linear Models
+    - point: Survival Analysis
+    - point: Time Series Analysis
+    - point: Optimization
+    - point: Artificial Neural Networks
+    - point: Bayesian Analysis
+    - point: Natural Language Processing
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+
+# Development
+- skill: Development
+  description: I perform a significant amount of development work in order to build and deploy data science solutions, using some of the following frameworks.
+  summary:
+    - point: R
+    - point: Shiny
+    - point: Python
+    - point: Excel
+    - point: Markdown
+    - point: YAML
+    - point: HTML
+    - point: Latex
+    - point: Git
+    - point: API
+    - point: SQL
