@@ -5,7 +5,7 @@
   description: Completed an interdisciplinary program, accredited by the Royal Statistics Society (UK) with Cum Laude distinction.
 
 # Thesis
-- degree: Master's Thesis : Reliability Analysis of Mechanical Equipment in a Cement Production Plant
+- degree: "Master's Thesis : Reliability Analysis of Mechanical Equipment in a Cement Production Plant"
   year: 2018 &mdash; 2019
   summary:
     - point: Developed an integrated predictive model (accounting for event history, condition monitoring, and production throughput) used it to identify the reliability of the mechanical equipment, and made maintenance-specific recommendations to improve reliability.
