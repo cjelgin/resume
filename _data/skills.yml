@@ -18,15 +18,18 @@
     - point: Artificial Neural Networks
     - point: Bayesian Analysis
     - point: Natural Language Processing
+    - point: Image Recognition
 
 
 # Development
 - skill: Development
   description: I perform a significant amount of development work in order to build and deploy data science solutions, using some of the following frameworks.
   summary:
-    - point: R
-    - point: Shiny
     - point: Python
+    - point: R
+    - point: TensorFlow
+    - point: Docker
+    - point: Shiny
     - point: Excel
     - point: Markdown
     - point: YAML
